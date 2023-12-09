@@ -2,5 +2,12 @@
 members = [
   "day2",
   "day3",
-  "day7"
+  "day7",
+  "day8"
 ]
+
+
+[profile.release]
+lto = "fat"
+panic = "abort"
+codegen-units = 1
